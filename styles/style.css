@@ -151,3 +151,16 @@ h2 {
   font-size: 48px;
   color: black;
 }
+
+/* ==================== FOOTER SECTION ====================*/
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 256px;
+  background-color: #000;
+  color: #fff;
+  margin-top: 100px;
+}
