@@ -17,6 +17,10 @@ body {
   justify-content: space-between;
 }
 
+.mb-50 {
+  margin-bottom: 50px !important;
+}
+
 .pt-50 {
   padding-top: 50px;
 }
@@ -74,4 +78,28 @@ h1 {
 .half-section img {
   width: 100%;
   padding-left: 50px;
+}
+
+/* ==================== HEADER SECTION ====================*/
+
+section {
+  height: 600px;
+  background-image: url(./imgs/about-bg.png);
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.half-section .about-img {
+  width: 69.2%;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #707070;
+}
+
+#about p {
+  line-height: 32px;
 }
