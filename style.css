@@ -1,0 +1,77 @@
+/* ==================== RESETS ====================*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+/* ==================== REUSABLE STYLES ====================*/
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.pt-50 {
+  padding-top: 50px;
+}
+
+.pb-50 {
+  padding-bottom: 50px;
+}
+
+.text-highlight {
+  background: linear-gradient(45deg, #fba24f, #ff1e1e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.btn {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 20px;
+  border: none;
+  border-radius: 35px;
+  background: none;
+  padding: 18px 32px;
+  background: linear-gradient(45deg, #fba24f, #ff1e1e);
+  box-shadow: 0 2px 30px #fc8f49;
+}
+.btn:hover {
+  cursor: pointer;
+}
+
+/* ==================== HEADER SECTION ====================*/
+
+.container {
+  margin: auto;
+  width: 85%;
+}
+
+.half-section {
+  width: 50%;
+}
+
+h1 {
+  color: #575757;
+  font-size: 55px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.half-section p {
+  color: #828282;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.half-section img {
+  width: 100%;
+  padding-left: 50px;
+}
