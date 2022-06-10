@@ -90,7 +90,7 @@ h1 {
 
 #about {
   height: 600px;
-  background-image: url(./imgs/about-bg.png);
+  background-image: url(../imgs/about-bg.png);
   background-position: left top;
   background-repeat: no-repeat;
   background-size: cover;

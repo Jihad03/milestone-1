@@ -1,0 +1,49 @@
+@media (max-width: 768px) {
+  /* Header Section */
+  header .flex {
+    flex-direction: column-reverse;
+  }
+  header .half-section {
+    width: auto;
+    text-align: center;
+  }
+
+  /* About Section */
+  #about {
+    background-image: none;
+    height: 1000px;
+  }
+  #about .flex {
+    flex-direction: column;
+    margin-bottom: 200px;
+  }
+  #about .half-section {
+    width: auto;
+    text-align: center;
+  }
+
+  /* Recipe Section */
+  .recipe-heading p {
+    padding: 0;
+  }
+  #recipe .recipe-container {
+    flex-direction: column;
+  }
+  .recipe {
+    width: 70%;
+    margin-bottom: 100px;
+  }
+
+  /* Social Section */
+  #social .flex {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .social-stats {
+    text-align: center;
+    display: block;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 50px;
+  }
+}
