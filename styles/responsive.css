@@ -15,7 +15,6 @@
   #about {
     background-image: none;
     height: 900px;
-    border: 1px solid;
   }
   #about .flex {
     flex-direction: column;
