@@ -7,15 +7,19 @@
     width: auto;
     text-align: center;
   }
+  h1 {
+    font-size: 40px;
+  }
 
   /* About Section */
   #about {
     background-image: none;
-    height: 1000px;
+    height: 900px;
+    border: 1px solid;
   }
   #about .flex {
     flex-direction: column;
-    margin-bottom: 200px;
+    /* margin-bottom: 200px; */
   }
   #about .half-section {
     width: auto;
@@ -35,6 +39,9 @@
   }
 
   /* Social Section */
+  #social .container {
+    margin-top: 0 !important;
+  }
   #social .flex {
     flex-direction: column;
     align-items: flex-start;
